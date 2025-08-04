@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Redirección aleatoria - Sello de Competencias ACAIRE</title>
+    <script>
+      window.onload = function () {
+        const forms = [
+          "https://forms.gle/iG1ecb6q6oTmGT5T8",
+          "https://forms.gle/myyQT64a6bH1Y4ww8",
+          "https://forms.gle/g4w5V4jFHkXuiKfg8"
+        ];
+        const randomIndex = Math.floor(Math.random() * forms.length);
+        window.location.href = forms[randomIndex];
+      };
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo a tu evaluación técnica...</p>
+  </body>
+</html>
